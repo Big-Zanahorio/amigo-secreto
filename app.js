@@ -20,3 +20,14 @@ for(let contador = 0; contador <= amigos.length; contador++){
 }
 }
 
+function sortearAmigo(){
+    if(amigos!=""){
+        let indice = Math.floor(Math.random()*amigos.length);
+        let amigoSorteado = amigos[indice];
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = amigoSorteado;
+    }
+    else {
+        alert("No hay amigos para sortear");
+    }
+}
