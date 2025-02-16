@@ -1,4 +1,4 @@
-# amigo-secreto
+# Juego del Amigo Secreto
 
 Este es un proyecto creado para el curso de Alura.
 
